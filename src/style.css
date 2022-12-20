@@ -1,0 +1,66 @@
+*{ 
+    margin: 0px;
+    
+}
+
+body{
+    background: url(./images/redsocial.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.contenedorHome{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+  justify-content: center;
+  margin: 420px 0px 0px 470px;
+    border: 1px solid ;
+    width: 400px;
+    height: 200px;
+    
+}
+.textoUno{
+    justify-content: center;
+    
+   
+}
+.loginHome{
+    border-radius: 10px;
+  
+}
+.textoDos{
+justify-content: center;
+margin-top: 35px;
+}
+
+.contenedorLogin{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+  justify-content: center;
+  margin: 420px 0px 0px 470px;
+    border: 1px solid ;
+    width: 400px;
+    height: 200px;
+}
+
+.botongoogle{
+    
+   border-radius: 30px;
+}
+.botonHome{
+    
+    border-radius: 50px;
+}
+    
+
+
+
+
+@media only screen and (min-width: 722px) {
+}
+
+
+
+

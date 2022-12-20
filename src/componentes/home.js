@@ -1,19 +1,44 @@
-//import { onNavigate } from '../main.js'; //se importa nuestra funcion para  darle el evento
-// home es la primera vista de la pantalla y nuestra primera carpeta de componentes
 export const Home = (onNavigate) => {
 
-  const HomeDiv = document.createElement('div');
-  const buttonRegister = document.createElement('button'); // botones de bienvenida
-  const buttonLogin = document.createElement('button');
+  const HomeDiv = document.createElement('div'); // contenedor para flex con toda la info y botones
+  const textoUno = document.createElement ('h1') // se crea un h1 de html con js
+  const ButtonLogin = document.createElement('button'); // boton donde se permite el login
+  const textoDos = document.createElement ('h2')
+  
+  textoUno.textContent = 'Bienvenidas a nuestra app' // texto que contiene
+  ButtonLogin.textContent = 'Login'; //texto ingresado en el boton de login
+  textoDos.textContent = 'Esperamos tus mejores consejos de lugares y tragos'
 
-  buttonRegister.textContent = 'Registrate'; // nombre que contienen estos botones
-  buttonLogin.textContent = 'Inicia sesión';
+  HomeDiv.className = 'contenedorHome' // para llamarlo en CSS
+  textoUno.className='textoUno'
+  ButtonLogin.className = 'loginHome'; // nombre para css
+  textoDos.className = 'textoDos'
 
-  buttonRegister.addEventListener('click', () => onNavigate('/register')); // eventos de los botones
-  buttonLogin.addEventListener('click', () => onNavigate('/login'));
-
-  HomeDiv.appendChild(buttonRegister); // appendchild inserta un nodo dentro de la estructura dom
-  HomeDiv.appendChild(buttonLogin);
+  ButtonLogin.addEventListener('click', () => onNavigate('/login')); // evento
+  HomeDiv.append(ButtonLogin,textoUno,textoDos); // boton de login 
 
   return HomeDiv;
 };
+  
+  
+
+  
+
+  
+
+
+  
+ 
+
+  
+  
+ 
+ 
+  
+
+  
+
+ 
+ 
+
+ 
