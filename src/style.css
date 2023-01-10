@@ -1,66 +1,130 @@
 *{ 
     margin: 0px;
     
+    
 }
 
 body{
-    background: url(./images/redsocial.jpg);
+    background: url(./images/alcohol.jpg);
     background-repeat: no-repeat;
-    background-position: top;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 .contenedorHome{
     display: flex;
     position: relative;
     flex-direction: column;
-  justify-content: center;
-  margin: 420px 0px 0px 470px;
-    border: 1px solid ;
-    width: 400px;
-    height: 200px;
-    
+    align-items: center;
+    flex-wrap: wrap;
+    border: 5px solid ;
+    border-radius: 5px;
+    width: 70%;
+    height: 80%;
+    margin: 0px;
+    background: rgba(0, 0, 0, 0.46);
+    mix-blend-mode: normal;
+    backdrop-filter: blur(2.5px);
+    padding: 30px;
+    margin-top: 5%;
+    margin-left: 5%;
 }
-.textoUno{
-    justify-content: center;
     
    
-}
-.loginHome{
+    
+button {
+    background-color: #174581;
+    color:#ECE4E4;
+    width: 100px;
+    height: 40px;
+    border: 0px;
     border-radius: 10px;
-  
+    margin-bottom: 15px;
 }
-.textoDos{
-justify-content: center;
-margin-top: 35px;
+   
+.textoUno{
+    justify-content: center;
+    margin-top: 20px;
 }
 
+.loginHome{
+    border-radius: 10px;
+}
+   
+.textoDos{
+    
+    justify-content: center;
+    margin-top: 35px;
+
+}
+ 
 .contenedorLogin{
+   display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 5px solid ;
+    border-radius: 5px;
+    width: 70%;
+    height: 80%;
+    margin: 0px;
+    background: rgba(0, 0, 0, 0.46);
+    mix-blend-mode: normal;
+    backdrop-filter: blur(2.5px);
+    padding: 30px;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+    
+.botongoogle{
+    border-radius: 30px;
+}
+    
+.botonHome{
+    border-radius: 50px;
+}
+.contenedorMuro{
     display: flex;
     position: relative;
     flex-direction: column;
-  justify-content: center;
-  margin: 420px 0px 0px 470px;
-    border: 1px solid ;
-    width: 400px;
-    height: 200px;
-}
-
-.botongoogle{
-    
-   border-radius: 30px;
-}
-.botonHome{
-    
-    border-radius: 50px;
-}
-    
-
-
-
-
+    align-items: center;
+    flex-wrap: wrap;
+}   
+   
 @media only screen and (min-width: 722px) {
+  
+    
+    
 }
+    
+        
+        
+
+    
 
 
+    
+   
+
+
+    
+    
+
+
+
+       
+    
+
+    
+
+
+
+
+
+    
+
+   
 
 
