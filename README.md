@@ -1,31 +1,19 @@
-# Creando una Red Social
+# BORRACHA PERO BUENA MUCHACHA
 
-## Índice
+## ES una red social enfocado a mujeres, para compartit datos y referencias de locales y tragos a recomendar, con el fin de encontrar lugares y espacios seguros para mujeres.
 
-* [1. Preámbulo](#1-preámbulo)
-* [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
-* [4. Consideraciones generales](#4-consideraciones-generales)
-* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Hacker edition](#6-hacker-edition)
-* [7. Entrega](#7-entrega)
-* [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
-* [9. Para considerar Project Feedback](#9-para-considerar-project-feedback)
+## Historias de usuario
 
-## 1. Preámbulo
+* historia 1 : como usuaria de redes sociales, lo primero que busco y quiero de una red social, es que tenga un inicio seguro, donde pueda loguearme con mi cuenta de google.
+* historia 2 : como mujer que le gusta salir y recomendar lugares o tragos, me gustaría tener un espacio donde escribir mi reseña .
+* historia 3:   como usuaria me gustaría que saliera mi nombre en el post.
+* historia 4: poder eliminar post si me equivoco o cambio de opinión.
 
-Instagram, Snapchat, Twitter, Facebook, Twitch, Linkedin, etc. Las redes
-sociales han invadido nuestras vidas. Las amamos u odiamos, y muchos no podemos
-vivir sin ellas.
 
-![adem-ay-Tk9m_HP4rgQ-unsplash](https://user-images.githubusercontent.com/110297/135544666-4efa54f1-4ff6-4c4c-b398-6df04ef56117.jpg)
+## Prototipos
 
-Hay redes sociales de todo tipo y para todo tipo de intereses. Por ejemplo,
-en una ronda de financiamiento con inversionistas, se presentó una red social
-para químicos en la que los usuarios podían publicar artículos sobre sus
-investigaciones, comentar en los artículos de sus colegas, y filtrar artículos
-de acuerdo a determinadas etiquetas o su popularidad, lo más reciente, o lo
-más comentado.
+
+
 
 ## 2. Resumen del proyecto
 
