@@ -2,7 +2,7 @@
 import { initializeApp } from 'firebase/app';
 import { getAuth, signInWithPopup, GoogleAuthProvider } from 'firebase/auth';
 import {
-  getFirestore, collection, addDoc, doc, setDoc, deleteDoc, getDocs, onSnapshot,
+  getFirestore, collection, addDoc, doc, deleteDoc, getDocs, onSnapshot,
 } from 'firebase/firestore';
 
 const firebaseConfig = {
@@ -15,7 +15,7 @@ const firebaseConfig = {
 };
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const auth = getAuth(app);
+export const auth = getAuth(app);
 const provider = new GoogleAuthProvider();
 const db = getFirestore(app);
 // Mi funcion signin es aquella que registra con google
@@ -25,11 +25,13 @@ export function signIn() {
       const credential = GoogleAuthProvider.credentialFromResult(result);
       const token = credential.accessToken;
       const user = result.user;
+      console.log(token, user);
     }).catch((error) => {
       const errorCode = error.code;
       const errorMessage = error.message;
-      const email = error.customData.email;
-      const credential = GoogleAuthProvider.credentialFromError(error);
+      // const email = error.customData.email;
+      // const credential = GoogleAuthProvider.credentialFromError(error);
+      console.log(errorCode, errorMessage);
     });
 }
 export const saveTask = (publicacion) => addDoc(collection(db, 'tasks'), { publicacion }); // sacar return y resolver promesa aca con .then y catch
@@ -37,4 +39,4 @@ export const saveTask = (publicacion) => addDoc(collection(db, 'tasks'), { publi
 
 export const getTasks = () => getDocs(collection(db, 'tasks'));
 export const onGetTask = (callback) => onSnapshot(collection(db, 'tasks'), callback);
-export const deletePost = (id) => deleteDoc(collection(db, 'tasks'), id);
+export const deletePost = (id) => deleteDoc(doc(db, 'tasks', id));

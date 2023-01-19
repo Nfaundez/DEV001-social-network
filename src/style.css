@@ -23,24 +23,36 @@ body{
     width: 70%;
     height: 80%;
     margin: 0px;
-    background: rgba(0, 0, 0, 0.46);
+    background: rgba(148, 146, 146, 0.46);
     mix-blend-mode: normal;
     backdrop-filter: blur(2.5px);
     padding: 30px;
     margin-top: 5%;
     margin-left: 5%;
 }
+
     
    
     
 button {
-    background-color: #174581;
+    background-color: #9b053e;
     color:#ECE4E4;
     width: 100px;
     height: 40px;
     border: 0px;
     border-radius: 10px;
     margin-bottom: 15px;
+}
+
+.botonDelete {
+    background-color: #f02244;
+    color:#ECE4E4;
+    width: 60px;
+    height: 20px;
+    border: 0px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+
 }
    
 .textoUno{
@@ -70,7 +82,7 @@ button {
     width: 70%;
     height: 80%;
     margin: 0px;
-    background: rgba(0, 0, 0, 0.46);
+    background: rgba(148, 146, 146, 0.46);
     mix-blend-mode: normal;
     backdrop-filter: blur(2.5px);
     padding: 30px;
@@ -85,19 +97,50 @@ button {
 .botonHome{
     border-radius: 50px;
 }
+.botonLogout{
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.post{
+    margin-top: 2%;
+}
 .contenedorMuro{
     display: flex;
     position: relative;
     flex-direction: column;
     align-items: center;
-    flex-wrap: wrap;
-}   
+    background: white;
+    background-repeat: repeat;
+    background: url(./images/muro.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    
    
-@media only screen and (min-width: 722px) {
-  
-    
-    
+
+}   
+
+.cuadropost{
+    margin-left: 25%;
+    margin-right: 15%;
+    width: 35%;
 }
+
+.divPost{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 15%;
+    background-color: #fdaccb;
+    mix-blend-mode: normal;
+    backdrop-filter: blur(2.5px);
+    width: 50%;
+}
+   
+
     
         
         
