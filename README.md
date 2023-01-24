@@ -1,6 +1,6 @@
-# BORRACHA PERO BUENA MUCHACHA
+# Borracha pero buena muchacha
 
-## ES una red social enfocado a mujeres, para compartit datos y referencias de locales y tragos a recomendar, con el fin de encontrar lugares y espacios seguros para mujeres.
+Es una red social enfocado a mujeres, para compartit datos y referencias de locales y tragos a recomendar, con el fin de encontrar lugares y espacios seguros para mujeres.
 
 ## Historias de usuario
 
@@ -10,12 +10,10 @@
 * historia 4: poder eliminar post si me equivoco o cambio de opinión.
 
 
-## Prototipos
+## Prototipo
+[![readme-social-2.jpg](https://i.postimg.cc/NMrxVYFm/readme-social-2.jpg)](https://postimg.cc/47st7Dzx)
 
-
-
-
-## 2. Resumen del proyecto
+##  Resumen del proyecto
 
 En este proyecto construirás una Red Social sobre lo que decidan tú y tu equipo.
 Podría ser, por ejemplo, sobre alimentación saludable, feminismo, educación,
