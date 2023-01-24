@@ -2,7 +2,7 @@
 
 Es una red social enfocado a mujeres, para compartit datos y referencias de locales y tragos a recomendar, con el fin de encontrar lugares y espacios seguros para mujeres.
 
-## Historias de usuario
+## 1. Historias de usuario
 
 * historia 1 : como usuaria de redes sociales, lo primero que busco y quiero de una red social, es que tenga un inicio seguro, donde pueda loguearme con mi cuenta de google.
 * historia 2 : como mujer que le gusta salir y recomendar lugares o tragos, me gustaría tener un espacio donde escribir mi reseña .
@@ -13,7 +13,7 @@ Es una red social enfocado a mujeres, para compartit datos y referencias de loca
 ## Prototipo
 [![readme-social-2.jpg](https://i.postimg.cc/NMrxVYFm/readme-social-2.jpg)](https://postimg.cc/47st7Dzx)
 
-##  Resumen del proyecto
+##  2. Resumen del proyecto
 
 En este proyecto construirás una Red Social sobre lo que decidan tú y tu equipo.
 Podría ser, por ejemplo, sobre alimentación saludable, feminismo, educación,
